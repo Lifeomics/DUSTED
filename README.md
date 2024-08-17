@@ -25,12 +25,10 @@ DUSTED's primary function is to estimate clean gene expression levels by incorpo
    cd DUSTED
    ```
 ### Project Structure
+ ```
  ├── model.py              # Contains the DUSTED model and other architectures
-
  ├── loss.py               # Contains the custom loss functions  
-
  ├── trainer.py            # Script for training the DUSTED model
-
  ├── README.md             # Project documentation
- 
  └── requirements.txt      # Python dependencies
+ ```
