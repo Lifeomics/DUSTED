@@ -1,5 +1,5 @@
 # DUSTED: Dual-attention Enhanced Spatial Transcriptomics Denoiser
-Dual-attention Enhanced Spatial Transcriptomics Denoiser
+
 ## Introduction
 
 Spatial transcriptomics is a powerful technique for profiling gene expression in tissue sections while retaining spatial context. However, the data can be noisy, requiring robust methods for denoising. DUSTED (Dual-attention Enhanced Spatial Transcriptomics Denoiser) introduces a sophisticated denoising approach that leverages both gene expression matrices and neighborhood graphs constructed using spatial information.
