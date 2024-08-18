@@ -2,13 +2,21 @@
 
 ## Introduction
 
-Spatial transcriptomics is a powerful technique for profiling gene expression in tissue sections while retaining spatial context. However, the data can be noisy, requiring robust methods for denoising. DUSTED (Dual-attention Enhanced Spatial Transcriptomics Denoiser) introduces a sophisticated denoising approach that leverages both gene expression matrices and neighborhood graphs constructed using spatial information.
 <div align="center">
-  <img src="./resource/model.png" alt="workflow">
-  <figcaption>Fig.1 The framework of DUSTED.</figcaption>
+  <img src="./resource/overview.png" alt="workflow" width="50%">
+  <figcaption>Fig.1 Overview of DUSTED denoising procedure.</figcaption>
 </div>
 
-DUSTED's primary function is to estimate clean gene expression levels by incorporating spatial information, which enhances the accuracy and reliability of the data. This process has been proven to improve performance in various downstream tasks, such as gene expression analysis and spatial pattern identification.
+Spatial transcriptomics is a powerful technique for profiling gene expression in tissue sections while retaining spatial context. However, the data can be noisy, requiring robust methods for denoising. **DUSTED (Dual-attention Enhanced Spatial Transcriptomics Denoiser)** introduces a sophisticated denoising approach that leverages both gene expression matrices and neighborhood graphs constructed using spatial information.
+
+<div align="center">
+  <img src="./resource/model.png" alt="workflow">
+  <figcaption>Fig.2 The framework of DUSTED.</figcaption>
+</div>
+
+DUSTED enhances the estimation of clean gene expression levels by incorporating spatial information, improving performance in tasks like gene expression analysis and spatial pattern identification. Using a **dual-attention mechanism**, DUSTED focuses on both spatial features and noise variations, interpolating gene expression at any location based on neighboring spots. Additionally, it refines SRT counts to better align with biologically realistic distributions. By leveraging prior biological knowledge, DUSTED accurately fits true gene expression profiles, achieving superior self-supervised SRT data denoising without external auxiliary information.
+
+
 
 ## Installation
 
