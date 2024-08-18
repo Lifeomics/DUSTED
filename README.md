@@ -3,9 +3,11 @@
 ## Introduction
 
 <div style="text-align: center;">
-  <img src="./resource/overview.png" alt="workflow">
+  <img src="./resource/overview.png" alt="workflow" style="width: 50%;">
+  <br>
   <figcaption>Fig.1 Overview of DUSTED denoising procedure.</figcaption>
 </div>
+
 
 Spatial transcriptomics is a powerful technique for profiling gene expression in tissue sections while retaining spatial context. However, the data can be noisy, requiring robust methods for denoising. **DUSTED (Dual-attention Enhanced Spatial Transcriptomics Denoiser)** introduces a sophisticated denoising approach that leverages both gene expression matrices and neighborhood graphs constructed using spatial information.
 
