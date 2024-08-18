@@ -98,7 +98,7 @@ class DUSTED(nn.Module):
     Args:
         hidden_dims (list): List of dimensions for input, hidden, and output layers.
     """
-    def __init__(self, hidden_dims):
+    def __init__(self, hidden_dims,alpha=1.5):
         super(DUSTED, self).__init__()
         [in_dim, num_hidden, out_dim] = hidden_dims
         self.conv1 = GATConv(in_dim, num_hidden, heads=1, concat=False,
@@ -114,8 +114,9 @@ class DUSTED(nn.Module):
         self.pi = GATConv(num_hidden, in_dim, heads=1, concat=False,
                           dropout=0, add_self_loops=False, bias=False)
         self.gca1 = GCALayer(in_dim)
+        self.alpha = alpha
 
-    def forward(self, features, edge_index, scale_factor, alpha=1.5):
+    def forward(self, features, edge_index, scale_factor):
         h1 = self.gca1(features)
         h1 = alpha * h1 + features
         h1 = F.elu(self.conv1(h1, edge_index))
