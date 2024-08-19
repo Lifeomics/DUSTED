@@ -3,7 +3,7 @@
 ## Introduction
 
 <div style="text-align: center;">
-  <img src="./resource/overview.png" alt="workflow" style="width: 100%;">
+  <img src="./resource/overview.png" alt="workflow" style="width: 80%;">
   <br>
   <figcaption>Fig.1 Overview of DUSTED denoising procedure.</figcaption>
 </div>
