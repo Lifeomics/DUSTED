@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<div style="text-align: center;">
+<div align="center">
   <img src="./resource/overview.png" alt="workflow" style="width: 100%;">
   <figcaption>Fig.1 Overview of DUSTED denoising procedure.</figcaption>
 </div>
