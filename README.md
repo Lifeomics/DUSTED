@@ -4,7 +4,6 @@
 
 <div style="text-align: center;">
   <img src="./resource/overview.png" alt="workflow" style="width: 100%;">
-  <br>
   <figcaption>Fig.1 Overview of DUSTED denoising procedure.</figcaption>
 </div>
 
