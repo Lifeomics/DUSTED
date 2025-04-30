@@ -41,3 +41,7 @@ DUSTED enhances the estimation of clean gene expression levels by incorporating 
  ├── README.md             # Project documentation
  └── requirements.txt      # Python dependencies
  ```
+## Cite
+```
+@article{Zhu_Li_Tang_Chang_2025, title={DUSTED: Dual-Attention Enhanced Spatial Transcriptomics Denoiser}, volume={39}, url={https://ojs.aaai.org/index.php/AAAI/article/view/32110}, DOI={10.1609/aaai.v39i1.32110}}
+```
