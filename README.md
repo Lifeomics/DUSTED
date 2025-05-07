@@ -77,7 +77,6 @@ We have updated our evaluation methodology for dimensionality reduction and clus
 
 ---
 
-Feel free to modify the explanations and structure as necessary for your specific audience.
 
 ## Installation
 
