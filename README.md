@@ -17,9 +17,9 @@ Spatial transcriptomics is a powerful technique for profiling gene expression in
 
 DUSTED enhances the estimation of clean gene expression levels by incorporating spatial information, improving performance in tasks like gene expression analysis and spatial pattern identification. Using a **dual-attention mechanism**, DUSTED focuses on both spatial features and noise variations, interpolating gene expression at any location based on neighboring spots. Additionally, it refines SRT counts to better align with biologically realistic distributions. By leveraging prior biological knowledge, DUSTED accurately fits true gene expression profiles, achieving superior self-supervised SRT data denoising without external auxiliary information.
 
-# Update on Evaluation Metrics
+# Update on Evaluation Metrics of DLPFC dataset (May 8, 2025)
 
-We have updated(05/08/2025) our evaluation methodology for dimensionality reduction and clustering. Initially, we used STAGATE for dimensionality reduction followed by the **mclust** clustering method. However, after further consideration, we realized that PCA (Principal Component Analysis) is a more suitable choice for dimensionality reduction. Therefore, we have updated the corresponding evaluation results using **PCA for dimensionality reduction** followed by **mclust** clustering. The updated ARI, NMI, and HS results are as follows:
+We have updated our evaluation methodology for dimensionality reduction and clustering. Initially, we used STAGATE for dimensionality reduction followed by the **mclust** clustering method. However, after further consideration, we realized that PCA (Principal Component Analysis) is a more suitable choice for dimensionality reduction. Therefore, we have updated the corresponding evaluation results using **PCA for dimensionality reduction** followed by **mclust** clustering. The updated ARI, NMI, and HS results are as follows:
 
 ### ARI (Adjusted Rand Index) Results
 
